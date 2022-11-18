@@ -11,6 +11,7 @@ const loader = document.getElementById("loader");
 
 // import { localQuotes } from "./quotes";
 let apiQuotes = [];
+loader.hidden = true;
 
 // Show Loading 
 function loading() {
@@ -73,7 +74,7 @@ function postQuote() {
 
 // Event listeners
 twitterBtn.addEventListener('click', tweetQuote);
-facebookBtn.addEventListener('click', postQuote);
+// facebookBtn.addEventListener('click', postQuote);
 newQuoteBtn.addEventListener('click', getQuotes);
 
 // On Load
