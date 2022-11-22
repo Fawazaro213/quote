@@ -66,16 +66,8 @@ function tweetQuote() {
     window.open(twitterUrl, '_blank');
 }
 
-// Post Quote
-function statusQuote() {
-    const whatsappUrl = `https://whatsapp.com/share/send?text=${quoteText.textContent} - ${authorText.textContent}`
-    window.open(whatsappUrl, '_blank');
-}
-
 // Event listeners
 twitterBtn.addEventListener('click', tweetQuote);
-whatsappBtn.addEventListener('click', statusQuote);
-// facebookBtn.addEventListener('click', postQuote);
 newQuoteBtn.addEventListener('click', getQuotes);
 
 // On Load

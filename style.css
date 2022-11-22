@@ -83,7 +83,7 @@ body {
     color: #4267B2;
  }
 
- .whatsapp-button:hover {
+ .whatsapp-button:hover i {
     color: #4ac959;
  }
 
@@ -101,6 +101,11 @@ body {
 
  .fa-twitter, .fa-facebook, .fa-whatsapp, .fa-instagram {
     font-size: 1.5rem;
+ }
+
+ #link {
+   color: whitesmoke;
+   text-decoration: none;
  }
 
  /* .loader { */
