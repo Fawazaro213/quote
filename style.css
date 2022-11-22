@@ -51,6 +51,9 @@ body {
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      height: 100px;
  }
 
  button {
@@ -108,6 +111,14 @@ body {
    text-decoration: none;
  }
 
+ .social {
+   width: 340px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+ }
+
  /* .loader { */
         /* border: 16px solid #f3f3f3; /* Light grey */
         /* border-top: 16px solid #333; Blue */ 
@@ -125,7 +136,7 @@ body {
 
  /* Media querry: Tablet or Smaller */
 
- @media screen and (max-width: 1000px) {
+ @media screen and (max-width: 1500px) {
     .quote-container {
         margin: auto 10px;
     }
@@ -136,19 +147,5 @@ body {
 
     #quote-text {
         font-size: 2.5rem;
-    }
-    .button-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      height: 100px;
-    }
-    .social {
-      width: 350px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
     }
  }
