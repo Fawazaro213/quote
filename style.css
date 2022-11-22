@@ -130,7 +130,25 @@ body {
         margin: auto 10px;
     }
 
+    .quote-text {
+      font-size: 35px;
+    }
+
     #quote-text {
         font-size: 2.5rem;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 100px;
+    }
+    .social {
+      width: 350px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
     }
  }
