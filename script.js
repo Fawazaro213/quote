@@ -67,13 +67,14 @@ function tweetQuote() {
 }
 
 // Post Quote
-function postQuote() {
-    const facebookUrl = `https://facebook.com/intent/share.php?text=${quoteText.textContent} - ${authorText.textContent}`
-    window.open(facebookUrl, '_blank');
+function statusQuote() {
+    const whatsappUrl = `https://whatsapp.com/share/send?text=${quoteText.textContent} - ${authorText.textContent}`
+    window.open(whatsappUrl, '_blank');
 }
 
 // Event listeners
 twitterBtn.addEventListener('click', tweetQuote);
+whatsappBtn.addEventListener('click', statusQuote);
 // facebookBtn.addEventListener('click', postQuote);
 newQuoteBtn.addEventListener('click', getQuotes);
 

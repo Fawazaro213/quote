@@ -87,8 +87,16 @@ body {
     color: #4ac959;
  }
 
- .instagram-button:hover {
-    background-color: linear-gradient(#405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+ .instagram-button:hover i {
+    background-image: linear-gradient(to bottom, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    display: inline-block;
  }
 
  .fa-twitter, .fa-facebook, .fa-whatsapp, .fa-instagram {
