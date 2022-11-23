@@ -66,6 +66,11 @@ function tweetQuote() {
     window.open(twitterUrl, '_blank');
 }
 
+// function postQuote() {
+//     const facebookUrl = `https://www.facebook.com/sharer/sharer.php?text=${quoteText.textContent} - ${authorText.textContent}`
+//     window.open(facebookUrl, '_blank');
+// }
+
 function statusQuote() {
     const whatsappUrl = `whatsapp://send?text=${quoteText.textContent} - ${authorText.textContent}`
     window.open(whatsappUrl, '_blank');
@@ -75,6 +80,7 @@ function statusQuote() {
 
 // Event listeners
 twitterBtn.addEventListener('click', tweetQuote);
+// facebookBtn.addEventListener('click', postQuote);
 whatsappBtn.addEventListener('click', statusQuote);
 newQuoteBtn.addEventListener('click', getQuotes);
 
